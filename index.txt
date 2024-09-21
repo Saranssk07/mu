@@ -1,0 +1,58 @@
+About Git:
+I. Git is a Version control system.
+II. Git helps you keep track of code changes.
+III. Git is used to collaborate on code.
+
+About GitHub:
+    Git Hub is a web based git repository hosting service.
+
+GitHub Alternatives:
+ 1. BitBucket
+2. GitBucket
+
+.git file:
+	It provides a bridge between remote repository and local repository but it is hidden.
+
+Working with git commands:
+     Note: Dowload git and set the configuration for user name & mail as typed in git hub.
+
+Commands:
+1.git clone:
+	This command is used to clone the file from Git hub to the local repository with the help
+of code in git hub. (like a copy command)
+
+2.cd <foldername>:
+	To enter into the file in local repository.
+
+To create a file in local repository and push to remote repository command:
+3. git status:
+	It displays a symbol U which is unmodified.
+
+4. git add <filename>:
+	again check git status:
+	It displays the symbol a Which is added
+
+To view in remote repository, which is created in local repository, use this command:
+5. git commit -m "<comments typed here>":
+	It will save the new file in git.
+
+6. git push origin main :
+	It will push the code in remote repository.
+
+Shorthand command to remember :
+   
+	insert -> add -> commit -> push	
+
+To Delete a file in local repository:
+	Right click and delete in local repository not in git hub, want to delete  the file in 
+git hub use the following command:
+
+	1. git add <foldername> :
+		Add the changes to staging area
+	2. git commit -m "deleted" :
+		Add the changes to the local git.
+	3. git push origin main :
+		Add the changes made to the remote repository.
+
+In the final process, the file was deleted in git hub(remote repository)
+     
